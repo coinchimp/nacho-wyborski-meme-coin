@@ -18,10 +18,13 @@ export default function Home() {
           Nacho Wyborski KRC20 Meme Coin
         </h1>
         <p className={styles.description}>
-          * no presale<br/>
-          * no pre-allocation<br/>
-          * coming soon
+          fair launch<br/>
+          no presale<br/>
+          no pre-allocation<br/>
         </p>
+        <h2 className={styles.title}>
+          coming soon!
+        </h2>        
       </main>
     </div>
   )
