@@ -1,6 +1,6 @@
 // src/app/layout.js
-import Head from 'next/head'
 import './globals.css'
+import Image from 'next/image'
 
 export const metadata = {
   title: 'Nacho Wyborski KRC20 Meme Coin',
@@ -10,12 +10,26 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/kaspa_logo_nacho.ico" />
+      <head>
+        <link rel="icon" href="/favicon.ico" />
         <title>Nacho Wyborski KRC20 Meme Coin</title>
         <meta name="description" content="Nacho Wyborski KRC20 Meme Coin" />
-      </Head>
+      </head>
       <body>
+        <div className="top-bar">
+          <Image src="/kaspa_logo_nacho.png" alt="Nacho Wyborski Logo" width={40} height={40} />
+          <div className="icon-container">
+            <a href="https://discord.gg/f3pUgRFx" target="_blank" rel="noopener noreferrer">
+              <Image src="/icons/discord.png" alt="Discord" width={30} height={30} />
+            </a>
+            <a href="https://t.me/+6KHfUZfsTIcwNjAx" target="_blank" rel="noopener noreferrer">
+              <Image src="/icons/telegram.png" alt="Telegram" width={30} height={30} />
+            </a>
+            <a href="https://x.com/NachoWyborski" target="_blank" rel="noopener noreferrer">
+              <Image src="/icons/twitter.png" alt="X" width={30} height={30} />
+            </a>
+          </div>
+        </div>
         {children}
       </body>
     </html>
