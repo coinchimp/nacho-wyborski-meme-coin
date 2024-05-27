@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
             <a href="https://discord.gg/f3pUgRFx" target="_blank" rel="noopener noreferrer">
               <Image src="/icons/discord.png" alt="Discord" width={30} height={30} />
             </a>
-            <a href="https://t.me/+6KHfUZfsTIcwNjAx" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/nachothecat" target="_blank" rel="noopener noreferrer">
               <Image src="/icons/telegram.png" alt="Telegram" width={30} height={30} />
             </a>
             <a href="https://x.com/NachoWyborski" target="_blank" rel="noopener noreferrer">
