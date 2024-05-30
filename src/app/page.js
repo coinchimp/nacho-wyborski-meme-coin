@@ -18,7 +18,7 @@ export default function Home() {
         </p>
       </div>
       <div className={styles.featuresSection}>
-        <Image src="/nacho_chart.jpg" alt="Features Image" width={375} height={375} className={styles.featuresImage} />
+        <Image src="/nacho_chart.jpg" alt="Features Image" width={450} height={450} className={styles.featuresImage} />
         <div className={styles.featuresText}>
           <h2>Launch Conditions</h2>
           <ul>

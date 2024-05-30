@@ -99,12 +99,15 @@
 }
 
 .featuresImage {
+  padding: 20px;
   margin-right: 20px;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 .featuresText {
-  margin-right: 20px; 
+  margin-right: 20px;
+  max-width: 800px;
+  padding: 40px; 
 }
 
 .featuresText h2 {
