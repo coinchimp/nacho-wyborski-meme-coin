@@ -1,4 +1,3 @@
-// src/app/layout.js
 import './globals.css'
 import Image from 'next/image'
 
@@ -17,7 +16,10 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <div className="top-bar">
-          <Image src="/kaspa_logo_nacho.png" alt="Nacho the 𐤊at Logo" width={40} height={40} />
+          <div className="logo-container">
+            <Image src="/kaspa_logo_nacho.png" alt="Nacho the 𐤊at Logo" width={40} height={40} />
+            {/*<span className="logo-text">Nacho the 𐤊at</span>*/}
+          </div>          
           <div className="icon-container">
             <a href="https://discord.gg/f3pUgRFx" target="_blank" rel="noopener noreferrer">
               <Image src="/icons/discord.png" alt="Discord" width={30} height={30} />
