@@ -87,8 +87,10 @@
   color: #a00515; /* Highlight color, you can change this to any color you prefer */
 }   
 
+
 .featuresSection {
   display: flex;
+  flex-direction: column; /* Stack items vertically on mobile */
   justify-content: left;
   align-items: center;
   padding: 20px;
