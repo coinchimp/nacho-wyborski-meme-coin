@@ -29,3 +29,11 @@
 .container a:hover {
   text-decoration: underline;
 }
+
+.bottomSection {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: #1c1a22;
+  color: #f4e4cd;
+}
