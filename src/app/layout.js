@@ -1,25 +1,27 @@
-import './globals.css'
-import Image from 'next/image'
-
-export const metadata = {
-  title: 'Nacho the 𐤊at KRC20 Meme Coin',
-  description: 'Nacho the 𐤊at KRC20 Meme Coin',
-}
+import './globals.css';
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function RootLayout({ children }) {
+  const metadata = {
+    title: 'Nacho the 𐤊at KRC20 Meme Coin',
+    description: 'Nacho the 𐤊at KRC20 Meme Coin',
+  };
+
   return (
     <html lang="en">
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <title>Nacho the 𐤊at KRC20 Meme Coin</title>
-        <meta name="description" content="Nacho the 𐤊at KRC20 Meme Coin" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
       </head>
       <body>
         <div className="top-bar">
           <div className="logo-container">
-            <Image src="/kaspa_logo_nacho.png" alt="Nacho the 𐤊at Logo" width={40} height={40} />
-            {/*<span className="logo-text">Nacho the 𐤊at</span>*/}
-          </div>          
+            <Link href="/">
+              <Image src="/kaspa_logo_nacho.png" alt="Nacho the 𐤊at Logo" width={40} height={40} />
+            </Link>  
+          </div>                         
           <div className="icon-container">
             <a href="https://discord.gg/f3pUgRFx" target="_blank" rel="noopener noreferrer">
               <Image src="/icons/discord.png" alt="Discord" width={30} height={30} />
@@ -35,5 +37,5 @@ export default function RootLayout({ children }) {
         {children}
       </body>
     </html>
-  )
+  );
 }

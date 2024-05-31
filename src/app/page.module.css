@@ -60,6 +60,15 @@
   animation: slideUp 1s ease-out;    
 }
 
+.bannerText a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the parent element */
+}
+
+.bannerText a:hover {
+  color: inherit; /* Inherit the color from the parent element */
+}
+
 .highlight {
   font-weight: bold;
   text-decoration: none; /* Remove underline */ 
