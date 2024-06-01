@@ -1,7 +1,8 @@
 // src/app/Banner.js
 import styles from './Banner.module.css';
-import Image from 'next/image';
+import Image from 'next/image'; // changing img by Image
 import Link from 'next/link'; // Import Link
+
 
 const Banner = () => {
   return (
