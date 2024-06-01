@@ -1,7 +1,7 @@
 /* src/app/page.module.css */
-@keyframes slideUp {
+@keyframes slideDown {
   from {
-    transform: translateY(100%);
+    transform: translateY(-100%);
     opacity: 0;
   }
   to {
@@ -28,9 +28,7 @@
   border-radius: 10px;
 }
 
-.logo {
-  margin-bottom: 20px;
-}
+
 
 .title {
   font-size: 2.5rem;
@@ -47,27 +45,6 @@
   line-height: 1.5;
 }
 
-.bannerText {
-  text-align: center;
-  font-size: 1.8rem;
-  text-decoration: none; /* Remove underline */
-  font-family: 'Poppins', sans-serif; /* You can change this to any cool font you prefer */
-  color: #333;
-  padding: 20px 40px; /* Add padding to left and right sides */
-  margin: 20px auto; /* Center the container */
-  border-radius: 10px;
-  max-width: 800px; /* Optional: limit the max width */
-  animation: slideUp 1s ease-out;    
-}
-
-.bannerText a {
-  text-decoration: none; /* Remove underline */
-  color: inherit; /* Inherit the color from the parent element */
-}
-
-.bannerText a:hover {
-  color: inherit; /* Inherit the color from the parent element */
-}
 
 .highlight {
   font-weight: bold;
@@ -137,46 +114,20 @@
 .bottomSection {
   display: flex;
   justify-content: center;
+  font-size: 0.5rem;  
   padding: 40px;
   background-color: #1c1a22;
   color: #f4e4cd;
 }
 
-.bottomColumn {
-  flex: 1;
-  max-width: 600px;
-  margin: 0 20px;
+.faqSection {
   text-align: center;
-}
-
-.bottomColumn h2 {
-  font-family: 'Poppins', sans-serif; /* You can change this to any cool font you prefer */
-  margin-bottom: 20px;
-}
-
-.bottomColumn p {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.poweredBy {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 10px;
-  font-family: 'Poppins', sans-serif; /* You can change this to any cool font you prefer */
-  color: #1c1a22; /* Text color */
-}
-
-.poweredByLogo {
-  margin-right: 10px;
-}
-
-.poweredByText {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-decoration: none; /* Remove underline */
-  color: #1c1a22; /* Text color */
-  font-family: 'Poppins', sans-serif; /* Ensure the font is consistent */
+  font-family: 'Poppins', sans-serif; /* You can change this to any cool font you prefer */
+  color: #000000;
+  padding: 20px 40px; /* Add padding to left and right sides */
+  margin: 20px auto; /* Center the container */
+  border-radius: 10px;
+  max-width: 800px; /* Optional: limit the max width */
 }

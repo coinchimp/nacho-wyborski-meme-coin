@@ -1,28 +1,58 @@
 /* src/app/Banner.module.css */
-.banner {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-top: 33.33%; /* 3:1 Aspect Ratio */
-    overflow: hidden;
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
   }
-  
-  .bannerImage {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  to {
+    transform: translateY(0);
+    opacity: 1;
   }
+}
   
-  .bannerText {
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
+.BannerContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('/nacho_banner.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bannerText {
+  text-align: center;
+  font-size: 1.8rem;
+  text-decoration: none; /* Remove underline */
+  font-family: 'Poppins', sans-serif; /* You can change this to any cool font you prefer */
+  color: #FFFFFF;
+  padding: 20px 40px; /* Add padding to left and right sides */
+  margin: 20px auto; /* Center the container */
+  border-radius: 10px;
+  max-width: 800px; /* Optional: limit the max width */
+  animation: slideUp 1s ease-out;    
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.bannerText a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the color from the parent element */
+}
+
+.bannerText a:hover {
+  color: inherit; /* Inherit the color from the parent element */
+}
+
+.highlight {
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */ 
+} 
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}

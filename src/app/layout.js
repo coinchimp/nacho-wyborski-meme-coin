@@ -18,10 +18,10 @@ export default function RootLayout({ children }) {
       <body>
         <div className="top-bar">
           <div className="logo-container">
-            <Link href="/">
+            <Link href="/" target="_blank" rel="noopener noreferrer">
               <Image src="/kaspa_logo_nacho.png" alt="Nacho the 𐤊at Logo" width={40} height={40} />
-            </Link>  
-          </div>                         
+            </Link>
+          </div>
           <div className="icon-container">
             <a href="https://discord.gg/f3pUgRFx" target="_blank" rel="noopener noreferrer">
               <Image src="/icons/discord.png" alt="Discord" width={30} height={30} />

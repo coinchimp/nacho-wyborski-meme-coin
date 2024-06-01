@@ -18,7 +18,7 @@ const Faq = () => {
         <h2>🎁 Will Nacho offer airdrops?</h2>
         <p>No. Fair launch won&apos;t make it possible.</p>
 
-        <h2>❓ What is Kaplex?</h2>
+        <h2>❓ What is Kasplex?</h2>
         <p>Kasplex is designed as a versatile solution, incorporating the data insertion protocol, an open-source indexer, data availability, and comprehensive APIs. It leverages Kaspa&apos;s high block rate, scalability, and decentralized POW Layer-1 to facilitate efficient data insertion, address the UTXO bloat issue, and support a sustainable ecosystem.</p>
         <p>Kasplex provides an open-source indexer that enables developers and users to effectively retrieve and check data associated with KRC-20 tokens, NFTs, and other digital assets on Kaspa.</p>
         <p>Kasplex introduces the KRC-20 token standard, which defines a set of rules and conventions for creating and managing fungible tokens on Kaspa. (<a href="https://www.kasplex.org/home" target="_blank" rel="noopener noreferrer">https://www.kasplex.org/home</a>)</p>
