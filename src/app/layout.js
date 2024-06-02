@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <div className="top-bar">
           <Image src="/kaspa_logo_nacho.png" alt="Nacho the 𐤊at Logo" width={40} height={40} />
           <div className="icon-container">
-            <a href="https://discord.gg/f3pUgRFx" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/EB8VvA9DVf" target="_blank" rel="noopener noreferrer">
               <Image src="/icons/discord.png" alt="Discord" width={30} height={30} />
             </a>
             <a href="https://t.me/nachothecat" target="_blank" rel="noopener noreferrer">
